@@ -29,11 +29,10 @@ gsap.from('.nav__btn', {opacity:0, duration: 2.5, delay: 2, y: 25});
 /*SCROLL*/
 gsap.from('.home__scroll', {opacity: 0, duration: 1.5, delay: 2.3, y: 30})
 
-
-
 /*-- ANIMAÇÃO NO SCROLL --*/
 var animate = new TimelineMax({onUpdate:updatePercentage})
 var  controller = new ScrollMagic.Controller()
+
 
 /*DETALHES*/
 animate
