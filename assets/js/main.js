@@ -11,8 +11,6 @@ const showMenu = (toggleId, navId) =>{
 
 showMenu('nav-toggle','nav-menu')
 
-/*-- ANIMATE GSAP --*/
-
 /*TEXTO*/ 
 gsap.from('.home__title', {opacity: 0, duration: 1.5, delay: .5, y: 50})
 gsap.from('.home__description', {opacity: 0, duration: 1.5, delay: .8, y: 50})
