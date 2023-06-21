@@ -60,6 +60,13 @@ body {
   color: var(--first-color);
 }
 
+.dark{
+  background-color: #1D1D1F;
+  color: #FFF;
+}
+
+
+
 h1, h2, h3, p {
   margin: 0;
 }
